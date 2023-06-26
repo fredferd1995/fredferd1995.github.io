@@ -7,7 +7,7 @@ order: 1
 
 I've been writing software professionally since 2018.
 
-[Current Resume]({{ site.baseurl }}{% link /assets/files/resume2023.pdf %})
+[Current Resume]({{ site.baseurl }}{% link /assets/files/fhresume2023.pdf %})
 
 ## Experience
 #### Amazon Web Services (AWS) - [OpsCenter](https://docs.aws.amazon.com/systems-manager/latest/userguide/OpsCenter.html)
