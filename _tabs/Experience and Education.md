@@ -7,6 +7,8 @@ order: 1
 
 I've been writing software professionally since 2018.
 
+[Current Resume]({{ site.baseurl }}{% link /assets/files/resume2023.pdf %})
+
 ## Experience
 #### Amazon Web Services (AWS) - [OpsCenter](https://docs.aws.amazon.com/systems-manager/latest/userguide/OpsCenter.html)
 *Software Development Engineer*
@@ -38,7 +40,7 @@ I've been writing software professionally since 2018.
 
 ## Education
 #### Georgia Institute of Technology
-M.S. Computer Science, emph. Computing Systems
+M.S. Computer Science, emph. Computing Systems (Expected 2024)
     
     - Computer Architecture
     - Artificial Intelligence
