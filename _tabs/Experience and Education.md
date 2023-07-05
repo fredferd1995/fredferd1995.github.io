@@ -7,7 +7,8 @@ order: 1
 
 I've been writing software professionally since 2018.
 
-[Current Resume]({{ site.baseurl }}{% link /assets/files/fhresume2023.pdf %})
+> [Current Resume]({{ site.baseurl }}{% link /assets/files/fhresume2023.pdf %})
+{: .prompt-tip}
 
 ## Experience
 #### Amazon Web Services (AWS) - [OpsCenter](https://docs.aws.amazon.com/systems-manager/latest/userguide/OpsCenter.html)
@@ -37,6 +38,27 @@ I've been writing software professionally since 2018.
     - __End Result__: Cases include complete reduction of infant mortality failure mode, and improvements in detector yield by up to 50% in some runs.
 - Developed, released production software to test camera systems and measure performance against requirements.
 
+
+## Projects, Academic and Personal
+#### Multi‑threaded Distributed File System
+*C++14 w/ STL, gRPC, Docker, Linux, WSL2*
+
+- Distributed multi‑threaded file server/storage (think ”minimal Dropbox”) in C++, which will list, upload, download, and delete a consensus of
+shared files across multiple clients (threads).
+
+- Utilized gRPC to communicate actions across clients/server.
+
+- Implemented mutexes/other synchronization constructs for thread safety.
+
+#### Cache‑Based File Server
+*C, POSIX, Linux*
+- Multi‑threaded file server. Files are sent to client from a local cache of frequently‑requested files in order to reduce client wait time.
+- Cache reads are performed via synchronous access to shared memory segments via the POSIX API and semaphores
+
+#### Classification‑Based Learner for Stock Trading GATech
+*Python, Pandas, NumPy, Linux*
+- Stock bot that advises buy/sell/short decisions. Trained via Classification‑Based Decision Tree learner on an input data set of historical
+price/volume data. Yielded positive returns after training period
 
 ## Education
 #### Georgia Institute of Technology
