@@ -7,10 +7,16 @@ order: 1
 
 I've been writing software professionally since 2018.
 
-> [Current Resume]({{ site.baseurl }}{% link /assets/files/fhresume2023.pdf %})
+> [Current Resume]({{ site.baseurl }}{% link /assets/files/fhresume2024.pdf %})
 {: .prompt-tip}
 
 ## Experience
+#### AppStem
+*Software Development Engineer*
+- Develop RESTful APIs (TypeScript), docs (Swagger) and data models (PostgreSQL) to support user authentication, media uploads, posts, and interactions for a greenfield Node.js-based social media app
+- Identified and mitigated error-handling risks in legacy codebase by refactoring critical database operations into atomic transactions, ensuring data consistency and system reliability
+
+
 #### Amazon Web Services (AWS) - [OpsCenter](https://docs.aws.amazon.com/systems-manager/latest/userguide/OpsCenter.html)
 *Software Development Engineer*
     
@@ -22,7 +28,7 @@ I've been writing software professionally since 2018.
 - Implemented custom alarms, metrics, logging, and dashboards to monitor new feature adoption and health. 
     - __End Result__: Logging and runbook additions helped bring on‑call MTTR down to minutes from hours, saving time, money and customer impact.
 - Wrote code, tests on 4 dev team for design, implementation of feature to support cross‑account resource access.
-    - __End Result__: Reduced latency on calls to AWS Organizations API, saving up to 30s in some cases.
+    - __End Result__: Reduced latency on calls to AWS Organizations API, saving up to 12s in some cases.
 - Authored design documents and drove team consensus on new feature design and implementation.
 
 
@@ -40,6 +46,13 @@ I've been writing software professionally since 2018.
 
 
 ## Projects, Academic and Personal
+
+#### CPU Scheduler/Memory Coordinator for Virtual Machines
+*C, Linux, Libvirt, Azure*
+
+- Balance VCPU utilization across a set of physical CPUs on a cloud-based Azure instance running 8 virtual machines. Use a greedy knapsack-based pinning scheme to balance utilization across physical cores
+- Use memory ballooning techniques to determine when to provision/reclaim memory to and from host
+
 #### Multi‑threaded Distributed File System
 *C++14 w/ STL, gRPC, Docker, Linux, WSL2*
 
@@ -71,7 +84,8 @@ M.S. Computer Science, emph. Computing Systems (Expected 2024)
     - Machine Learning for Trading
     - Game Artificial Intelligence
     - Computer Networks
-    - Operating Systems
+    - Advanced Operating Systems
+    - Graduate Algorithms
 
 #### University of California, Santa Barbara
 B.S. Physics
